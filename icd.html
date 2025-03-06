@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="icd-style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <img src="new-logo-white.svg" alt="Billus Company Logo" class="logo">
+            <div class="loader">
+                <h1 class="main-heading">ICD 10 Lookup Tool BY Bilnow LLC</h1>
+        
+                <div class="load">
+                    <hr/><hr/><hr/><hr/>
+                  </div>
+            </div>
+            <!-- <p>Quickly find descriptions for CPT and HCPCS codes for medical billing and coding.</p> -->
+        </div>
+    </header>
+
+
+    
+    <div class="container">
+        <section class="lookup-section">
+           
+            <form id="codeForm" class="lookup-form">
+                <!-- <p class="icd-label">Enter ICD 10 Code</p> -->
+                <input type="text" id="codeInput" name="codeInput" placeholder="Enter ICD 10 Code (e.g., A0021)"
+                    required>
+                <button type="submit" class="lookup-button">Lookup Code</button>
+            </form>
+            <div id="result" class="result" style="display: none;">Results:</div>
+            
+       
+        </section>
+    </div>
+
+    <div class="icd-dicslaimer">
+        <h2>Disclaimer</h2>
+        <p>This ICD-10 Code Lookup Tool is provided for informational and educational purposes only. It is not intended to be a substitute for professional medical, legal, or billing advice. Users should consult with a qualified healthcare provider, billing specialist, or legal professional before making any decisions based on the information provided by this tool.</p>
+    </div>
+
+
+
+    <script src="icd-script.js"></script>
+</body>
+</html>
